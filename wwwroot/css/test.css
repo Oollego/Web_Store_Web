@@ -1,0 +1,171 @@
+body {
+    background-color: gainsboro;
+}
+
+.brand-logo img {
+    max-height: 50px;
+}
+
+.signText {
+    color: black;
+}
+.text-vertical-middel{
+    vertical-align: middle;
+}
+
+
+
+/* loginIn Window */
+.login-wind {
+    width: 35%;
+}
+
+.button-ligin-enter {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.button-ligin-exit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.registr-button {
+    font-size: larger;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.modal-login {
+    padding-top: 35px;
+}
+
+/* Register signup.php*/
+
+.signup-titel {
+    font-size: x-large;
+    text-align: center;
+}
+
+.signup-form-main {
+    margin-top: 20px;
+}
+
+.signup-button-div {
+    width: 100%;
+    text-align: center;
+}
+
+/* NavBar */
+
+.div-search{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.search-input {
+    padding: 0 5px 0 5px;
+    width: 100%;
+    margin: 0 !important;
+}
+
+
+.button-search {
+   width: 60px;
+   align-self: center;
+   text-align: center;
+}
+
+
+
+.hr li {
+    display: inline;
+    margin-right: 5px;
+    vertical-align: middle;
+   
+}
+
+.subdiv-nav{
+    display: flex;
+    align-items: center;
+}
+
+/* main */
+.main-side-div{
+    min-height: 390px !important;
+    border-right: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202)
+}
+
+/* basket */
+
+.basket-quantity-div{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+    position: relative;
+
+}
+.basket-quantity-span{
+    
+   
+    padding: 0 10px;
+    
+}
+.basket-item-quantity{
+align-self:center;
+
+}
+.basket-item-price{
+    align-self: center;
+   
+}
+.basket-item-price span{
+    padding-right: 5px;
+    font-size: larger;
+    vertical-align:middle;
+}
+.basket-item-img{
+    position: absolute;
+    left: 15px;
+}
+.basket-quantity-div>a{
+    position: absolute;
+    top: 10px;
+}
+
+
+/* ul */
+.basket-item-image{
+    display: block;
+	width:75%;
+    margin: auto;
+  }
+
+  .basket-item-image-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    
+  }
+  .basket-delete-img{
+    position: absolute;
+    top:10px;
+    right: 10px;
+  }
+  .basket-item-div{
+    position: relative;
+    margin: 10px 0 10px 0;
+  }
+  .basket-ul{
+    margin: 0;
+  }
+  .basket-item-button{
+    height: 25px;
+    line-height: 27px;
+    width: 25px;
+  }
